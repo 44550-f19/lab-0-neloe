@@ -1,8 +1,11 @@
 //similar to import; bring in functionality in
 // stdio (standard IO)
 #include <stdio.h>
-
+#include "functions.h"
+/* placed in functions.h
+// function prototypes
 int is_prime(int n);
+*/
 
 int main(int argc, char* argv[])
 {
@@ -14,9 +17,10 @@ int main(int argc, char* argv[])
 	return 0;
 }
 
-int is_prime(int n)
+// function definitions
+/*int is_prime(int n)
 {
 	for (int i=2; i*i<=n; i++)
 		if (n%i == 0) return 0;
 	return 1;
-}
+}*/
